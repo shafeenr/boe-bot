@@ -14,8 +14,8 @@ keyword because the former uses less memory
 #define oneDeg 6.5 // 1 degree is around 6.5 ms
 #define oneCM 60 // 1 centimetre is around 60 ms
 
-Servo leftMotor; // Declare left motor
-Servo rightMotor; // Declare right motor
+Servo leftMotor; // Declare left motor of Servo data type
+Servo rightMotor; // Declare right motor of Servo data type
 
 void setup() {
 
