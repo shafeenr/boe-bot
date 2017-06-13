@@ -45,11 +45,11 @@ void loop() {
     leftMotor.writeMicroseconds(1300);
     rightMotor.writeMicroseconds(1300);
     delay(oneDeg * 110);
-    
+
     leftMotor.writeMicroseconds(1300);
     rightMotor.writeMicroseconds(1700);
     delay(oneCM * 25);
-    
+
     leftMotor.writeMicroseconds(1250);
     rightMotor.writeMicroseconds(1540);
     delay(oneCM * 90);
@@ -81,5 +81,4 @@ void lineTracker() {
     leftMotor.writeMicroseconds(1500);
     rightMotor.writeMicroseconds(1500);
   }
-
 }
